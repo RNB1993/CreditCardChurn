@@ -1,27 +1,24 @@
-# Project XYZ
+# Credit Card Churn Analysis
 
-**Project XYZ** is a comprehensive data analysis tool designed to streamline data exploration, analysis, and visualisation. The tool supports multiple data formats and provides an intuitive interface for both novice and expert data scientists.
+**Credit Card Churn Analysis** is a comprehensive data analysis tool designed to streamline data exploration, analysis, and visualisation. The tool supports multiple data formats and provides an intuitive interface for both novice and expert data scientists.
 
 # ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
 
 ## Dataset Content
-* Describe your dataset. Choose a dataset of reasonable size to avoid exceeding the repository's maximum size of 100Gb.
-
-The dataset i'll be using as a spo
+* the dataset this project will be using starts off as a 21 column dataset before any ETL actions occur. This holds details about exisitng and churned customers who use products at the bank in question. It is sourced from Kaggle.com 
 
 
 ## Business Requirements
 * The bank has observed an increase in credit card customer attrition, impacting revenue and increasing acquisition costs. While customer demographic data is available, leadership lacks clarity on which behavioural and engagement factors most strongly influence churn.
 
-The analytics team has been asked to analyse existing customer data to identify high-risk churn segments and provide actionable recommendations to support proactive retention strategies.
+* The analytics team (ME!) has been asked to analyse existing customer data to identify high-risk churn segments and provide actionable recommendations to support proactive retention strategies.
 
 Business Objectives
 1.	Identify customer segments with above-average churn rates
 2.	Understand behavioural and demographic factors linked to churn
 3.	Provide data-backed recommendations to reduce churn
 4.	Demonstrate how analytics and AI-assisted insights can support decision-making
-
 
 
 ## Hypothesis and how to validate?
@@ -43,9 +40,6 @@ Low engagement customers are prime candidates for targeted offers or usage incen
 
 2: Customer Tenure
 Customers with a shorter tenure (Months_on_book) are more likely to churn than long-standing customers.
-Dataset fields
-•	Months_on_book
-•	Attrition_Flag
 Plots
 •	Histogram: tenure distribution by churn status
 •	Bar chart: churn rate by tenure band
@@ -54,24 +48,17 @@ Supports lifecycle-based onboarding and early intervention strategies.
 
 3: Transaction Behaviour
 Customers with lower transaction frequency and value are more likely to churn than active transactors.
-Dataset fields
-•	Total_Trans_Ct
-•	Total_Trans_Amt
-•	Attrition_Flag
 Plots
 •	Box plot: transaction count by churn status
 •	Scatter plot: transaction count vs amount (coloured by churn)
 Business relevance
 Identifies customers at risk due to declining card usage.
 
- 4: Demographics vs Behaviour (need to make to an business idea)
+ 4: Demographics vs Behaviour (need to make to an business idea) may drop if time short 
 While certain demographic segments show higher churn rates, behavioural variables are stronger indicators of churn than demographics alone.
 Dataset fields
 •	Demographics: Customer_Age, Gender, Income_Category
 •	Behavioural: transactions, inactivity, tenure
-
-
-
 
 
 ## Project Plan
