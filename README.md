@@ -8,13 +8,71 @@
 ## Dataset Content
 * Describe your dataset. Choose a dataset of reasonable size to avoid exceeding the repository's maximum size of 100Gb.
 
+The dataset i'll be using as a spo
+
 
 ## Business Requirements
-* Describe your business requirements
+* The bank has observed an increase in credit card customer attrition, impacting revenue and increasing acquisition costs. While customer demographic data is available, leadership lacks clarity on which behavioural and engagement factors most strongly influence churn.
+
+The analytics team has been asked to analyse existing customer data to identify high-risk churn segments and provide actionable recommendations to support proactive retention strategies.
+
+Business Objectives
+1.	Identify customer segments with above-average churn rates
+2.	Understand behavioural and demographic factors linked to churn
+3.	Provide data-backed recommendations to reduce churn
+4.	Demonstrate how analytics and AI-assisted insights can support decision-making
+
 
 
 ## Hypothesis and how to validate?
 * List here your project hypothesis(es) and how you envision validating it (them) 
+1: Customer Engagement
+Customers with lower overall engagement, measured by fewer products held and higher inactivity, are more likely to churn.
+Dataset fields
+•	Total_Relationship_Count
+•	Months_Inactive_12_mon
+•	Attrition_Flag
+How it will be tested:
+•	Group by engagement level
+•	Compare churn rates
+Plots (ideas)
+•	Bar chart: churn rate by relationship count
+•	Box plot: months inactive vs churn
+Business relevance
+Low engagement customers are prime candidates for targeted offers or usage incentives.
+
+2: Customer Tenure
+Customers with a shorter tenure (Months_on_book) are more likely to churn than long-standing customers.
+Dataset fields
+•	Months_on_book
+•	Attrition_Flag
+Plots
+•	Histogram: tenure distribution by churn status
+•	Bar chart: churn rate by tenure band
+Business relevance
+Supports lifecycle-based onboarding and early intervention strategies.
+
+3: Transaction Behaviour
+Customers with lower transaction frequency and value are more likely to churn than active transactors.
+Dataset fields
+•	Total_Trans_Ct
+•	Total_Trans_Amt
+•	Attrition_Flag
+Plots
+•	Box plot: transaction count by churn status
+•	Scatter plot: transaction count vs amount (coloured by churn)
+Business relevance
+Identifies customers at risk due to declining card usage.
+
+ 4: Demographics vs Behaviour (need to make to an business idea)
+While certain demographic segments show higher churn rates, behavioural variables are stronger indicators of churn than demographics alone.
+Dataset fields
+•	Demographics: Customer_Age, Gender, Income_Category
+•	Behavioural: transactions, inactivity, tenure
+
+
+
+
 
 ## Project Plan
 * Outline the high-level steps taken for the analysis.
