@@ -135,7 +135,7 @@ association with churn observed in the data.
 
 ## Use of AI Tools
 AI-assisted tools were used to support hypothesis development,
-code refinement (MS opilot), and narrative clarity (Grammarly premium).
+code refinement (Microsoft copilot), and narrative clarity (Grammarly premium).
 All AI-assisted suggestions were reviewed and validated
 against the dataset prior to inclusion.
 
