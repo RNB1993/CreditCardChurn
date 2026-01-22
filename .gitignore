@@ -9,3 +9,7 @@ node_modules/
 cloudinary_python.txt
 kaggle.json
 .venv/
+.slugignore
+.setup.sh
+Procfile
+dataFiles/cleanData/cleaned_credit_card_churn_data copy.csv
