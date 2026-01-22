@@ -92,7 +92,7 @@ project-root/
 │
 ├── README.md
 └── requirements.txt
-
+```text
 ## Project Plan and Methodology
 
 The project follows a structured analytical workflow:
